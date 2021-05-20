@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/holo_purple"
+    tools:context=".StartExamActivity">
+
+    <TextView
+        android:id="@+id/id_examname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exame Name"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/id_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="be careful there is only 1 minute for each question!"
+        android:layout_above="@id/id_start"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginBottom="80dp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <Button
+        android:id="@+id/id_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Exam"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
